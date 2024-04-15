@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: nunito;
+}
+
+.background-image {
+  background-image: url("https://cdn.discordapp.com/attachments/489938933015117825/1229261108288688248/Sunpuppers_bckgrnd.jpg?ex=662f099e&is=661c949e&hm=ecbfcb6d4a5ab2c75afef3bfbdff0962dd35a81bf5076f2a863fd881f9c4ce32&"); /* Specify the path to your image */
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.centered-left-middle {
+  position: absolute;
+  left: 110px;
+  top: 60%;
+  transform: translateY(-50%);
+  color: white; /* Text color */
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shop-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff655f; /* Button background color */
+  color: white; /* Button text color */
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px; /* Spacing between header and button */
+  transform: translateX(175%);
+}
+
+.navbar {
+  background-color: #ff655f; /* Navbar background color */
+  color: white; /* Text color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 20px;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+
+.logo {
+  flex: 1; /* Take up remaining space */
+}
+
+.links {
+  flex: 3; /* Take up most space */
+  text-align: center;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.profile-icons {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transform: translateX(-10%);
+  padding: 5px 15px;
